@@ -14,7 +14,11 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - ZZBase (0.1.0):
+  - ZZBase (0.1.1):
+    - ZZBase/ZZCategray (= 0.1.1)
+    - ZZBase/ZZNetwork (= 0.1.1)
+  - ZZBase/ZZCategray (0.1.1)
+  - ZZBase/ZZNetwork (0.1.1):
     - AFNetworking (~> 3.0)
 
 DEPENDENCIES:
@@ -30,7 +34,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  ZZBase: 65b1a1df5fdce7005f274bc4996637f7ffa26301
+  ZZBase: 2a1862a0343e10792bd4f9c89211e43bb3f658ad
 
 PODFILE CHECKSUM: ac9647f3069cb40f13e22420bd407f08658b5a6f
 
