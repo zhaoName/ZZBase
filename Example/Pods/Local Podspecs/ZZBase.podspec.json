@@ -1,6 +1,6 @@
 {
   "name": "ZZBase",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "ZZBase.",
   "description": "here is descroption.",
   "homepage": "https://github.com/zhaoName/ZZBase",
@@ -13,12 +13,17 @@
   },
   "source": {
     "git": "https://github.com/zhaoName/ZZBase.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "ZZBase/Classes/**/*",
+  "resource_bundles": {
+    "ZZBase": [
+      "ZZBase/Assets/*"
+    ]
+  },
   "subspecs": [
     {
       "name": "ZZCategray",

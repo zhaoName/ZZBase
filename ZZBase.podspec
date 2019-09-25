@@ -21,6 +21,10 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '8.0'
     s.source_files = 'ZZBase/Classes/**/*'
     
+    ## 图片
+    s.resource_bundles = {
+      'ZZBase' => ['ZZBase/Assets/*']
+    }
     ## 子库
     s.subspec 'ZZCategray' do |ca|
         ca.source_files = 'ZZBase/Classes/ZZCategray/**/*'

@@ -8,7 +8,7 @@
 
 #import "ZZViewController.h"
 #import "UIColor+Add.h"
-
+#import "ZZHomeViewController.h"
 
 @interface ZZViewController ()
 
@@ -20,14 +20,14 @@
 {
     [super viewDidLoad];
 	
-    
-    self.view.backgroundColor = [UIColor MainRedColor];
+    self.view.backgroundColor = [UIColor BGCCCCCCColor];
 }
 
-- (void)didReceiveMemoryWarning
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    UINavigationController *nv = [[UINavigationController alloc] initWithRootViewController:[ZZHomeViewController new]];
+    nv.navigationItem.title = @"HHHHHH";
+    [self presentViewController:nv animated:YES completion:nil];
 }
 
 @end
